@@ -3,10 +3,10 @@ import pkg from "../package.json";
 const manifest = {
   action: {
     default_icon: {
-      16: "icons/Icon-16.png",
-      20: "icons/Icon-20.png",
-      32: "icons/Icon-32.png",
-      48: "icons/Icon-48.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
     },
     default_popup: "src/entries/popup/index.html",
   },
@@ -20,16 +20,11 @@ const manifest = {
     },
   ],
   host_permissions: ["*://*.youtube.com/*"],
-  icons: {
-    16: "icons/Icon-16.png",
-    20: "icons/Icon-20.png",
-    32: "icons/Icon-32.png",
-    48: "icons/Icon-48.png",
-    64: "icons/Icon-64.png",
-    96: "icons/Icon-96.png",
-    128: "icons/Icon-128.png",
-    256: "icons/Icon-256.png",
-    512: "icons/Icon-512.png",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   options_ui: {
     page: "src/entries/options/index.html",

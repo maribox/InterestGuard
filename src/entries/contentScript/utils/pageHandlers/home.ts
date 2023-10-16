@@ -39,10 +39,10 @@ export function handleHomePage() {
                 lastvideolistlength = videolist.length
                 console.log(videolist);
             }
-            findVideosToBlock(videolist);
-//                blockVideos(videolist).then(setTimeout(() => {
-//                handlePageLoad();
-//            }, 5000));
+            findVideosToBlock(videolist).then(
+                blockVideos(videolist).then(setTimeout(() => {
+                    handlePageLoad();
+                }, 5000)));
         } else {
             setTimeout(() => {
                 handlePageLoad();

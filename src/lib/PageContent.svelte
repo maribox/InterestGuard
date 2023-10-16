@@ -1,5 +1,5 @@
 <script lang="ts">
-  import logo from "~/assets/Icon-1024.png";
+  import logo from "~/assets/IconLarge.png";
 
   const imageUrl = new URL(logo, import.meta.url).href;
 
