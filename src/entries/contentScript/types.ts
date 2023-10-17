@@ -4,6 +4,7 @@ export interface YoutubeVideo {
     title: string;
     element: HTMLElement;
     block: boolean;
+    done: boolean;
 }
 
 export enum YoutubePage {
